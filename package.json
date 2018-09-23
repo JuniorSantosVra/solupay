@@ -1,0 +1,13 @@
+{
+  "name": "SoluPlay",
+  "version": "0.0.3",
+  "author": "Juninho Santos",
+  "description": "Sincronizador",
+  "engines":{
+    "node": "8.11.3",
+    "npm": "5.6.0"
+  },
+  "dependencies": {
+    "socket.io": "*"
+  }
+}
