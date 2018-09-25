@@ -14,11 +14,22 @@ app.listen(server_port, server_host, function() {
    });
  };
 
-
+var terminais = []
   io.on('connection', function(socket){
 
+    ter = 555
+    if(terminais[ter]){
 
-   console.log("sim!")
+    }else{
+      
+      terminais[ter] = socket.id
+      console.log(terminais)
+   
+    }
+
+
+
+
    // Envia o total de visitas para os demais usuários.
    //socket.broadcast.emit('visits', visitas);
    // Evento disconnect ocorre quando sai um usuário.
